@@ -136,7 +136,7 @@ def button(update,context):
 persistence=PicklePersistence('torrentdata')
 def main():
     print("BOT is up, DEPLOYED by DIVY - the king")
-    token="6046600315:AAHH-CHOzzfWj4Y5qNwfZBPFmLqe18GRvjY"
+    token="6046600315:AAFdvO7my9H5HW_mM9575W_ZG0UR-dT-d70"
     updater = Updater(token,use_context=True, persistence=persistence)
     dp=updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
